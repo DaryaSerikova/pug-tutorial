@@ -8,9 +8,13 @@ npm install pug-cli -g
 
 ### Чтобы скомпилировать:
 ##### 1 способ
-<pug index.pug --pretty>
+```
+pug index.pug --pretty
+```
 Но нужно в определенную папку, поэтому лучше с флагами
+```
 pug index.pug --pretty --watch --out ./build/
+```
 Сокращенный вид:
 pug index.pug --pretty -w -o ./build/
 -o - флаг, после которого пишется путь к директории, куда должен компилироваться файл
