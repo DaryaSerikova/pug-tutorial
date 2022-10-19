@@ -51,7 +51,7 @@ pug index.pug --pretty -w -o ./build/
 ## Использование
 
 ### 0.Помощники:
-##### ul>li*5 
+##### `ul>li*5` 
 Emmet для быстрого написания списка:
 ```
 ul
@@ -162,4 +162,4 @@ block vars
 ### 10.Источники
 1. [MaxGraph](https://www.youtube.com/watch?v=HHBRbyTTSjk)
 
-2. [Туториал] (https://zaurmag.ru/html5-css3/html-preprotsessor-pug-jade.html)
+2. [Туториал](https://zaurmag.ru/html5-css3/html-preprotsessor-pug-jade.html)
