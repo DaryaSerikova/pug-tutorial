@@ -1,1 +1,12 @@
-header.header это хэдэр
+- var text = 'это текст';
+- var menuValues = ['Главная', 'О нас', 'Работы', 'Контакты'];
+
+header.header
+  if text
+    p #{text}
+  else 
+    p это хэдэр
+  nav.nav 
+    ul
+      each value in menuValues
+        li #{value}
