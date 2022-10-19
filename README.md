@@ -61,7 +61,7 @@ ul
   li 
   li 
 ```
-##### loremru20
+##### `loremru20`
 `lorem` 20 русских слов
 
 ### 1.Многострочный текст
@@ -74,7 +74,7 @@ ul
   | Образ страну переписали если напоивший строчка? 
   | Выйти путь заманивший семь.
 ```
-##### 2 способ - точка сразу после .block
+##### 2 способ - точка сразу после .block (`.block.`)
 ```
   .block. 
     Далеко-далеко за словесными горами в стране, гласных и 
@@ -93,14 +93,14 @@ Ctrl+/
 
 ### 5.Подключение файла base.pug
 
-##### extends
+##### `extends`
 Для подключения используем `extends`:
 ```
 extends base
 ```
 `extends` позволяет наследовать шаблон внутри `pug`, т.е. base - это некий шаблон, который будет подключаться ко всем страничкам.
 
-##### include
+##### `include`
 
 `include` же это вставка кусочка кода в другой файл. 
 
@@ -160,6 +160,6 @@ block vars
 //
 
 ### 10.Источники
-1.[MaxGraph](https://www.youtube.com/watch?v=HHBRbyTTSjk)
+1. [MaxGraph](https://www.youtube.com/watch?v=HHBRbyTTSjk)
 
-2.[Туториал] https://zaurmag.ru/html5-css3/html-preprotsessor-pug-jade.html
+2. [Туториал] (https://zaurmag.ru/html5-css3/html-preprotsessor-pug-jade.html)
